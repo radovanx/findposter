@@ -1,0 +1,17 @@
+<template name="layout"> 
+<div id="wrapper"> 
+	<h3>Find Poster!</h3> 
+<form class="main form" autocomplete="off">
+  <div class="mdl-textfield mdl-js-textfield"> 
+    <input class="mdl-textfield__input" type="text" id="autocomplete" name="films" />
+    <label class="mdl-textfield__label" for="autocomplete"></label> 
+   
+  </div>
+
+  <input type="submit" id="submit" value="FIND POSTER" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"/> 
+</form> 
+<div class="page-header">  
+	{{curfilm}}  
+</div>
+</div> 
+</template>
